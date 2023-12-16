@@ -1,0 +1,48 @@
+.custom-card {
+  background-image: url("assets/img/PLN_2.jpeg"); /* Ganti dengan path gambar Anda */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Sesuaikan dengan tinggi yang diinginkan */
+  color: #fff; /* Warna teks */
+  /* Tambahan gaya CSS lainnya */
+}
+
+.container-header {
+  width: 100%;
+  background-color: #14a2ba; /* Untuk mengganti background color dari aqua ke warna lain, sesuaikan nilai dari background-color */
+  overflow: hidden; /* Menangani float dengan menambahkan overflow */
+}
+
+/* Optional: tambahkan clearfix untuk mengatasi float */
+.container-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo4 {
+  float: right;
+  width: 23%;
+}
+
+.container-header h1 {
+  padding-left: 40px;
+}
+
+.container-header ul {
+  padding-right: 20px;
+}
+
+/* Optional: tambahkan clearfix untuk mengatasi float */
+.container-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text-header {
+  font-family: "Times New Roman", Times, serif;
+  font-style: bold;
+  color: white;
+}
+
